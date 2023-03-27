@@ -1,0 +1,7 @@
+
+type=AVC msg=audit(1600796109.687:168): avc:  denied  { read } for  pid=3912 comm="rhsmcertd-worke" name="virt.module" dev="dm-0" ino=50331783 scontext=system_u:system_r:rhsmcertd_t:s0 tcontext=system_u:object_r:root_t:s0 tclass=file permissive=0
+
+type=AVC This is test error
+
+type=SELINUX_ERR This will be sent (matches regex)
+
